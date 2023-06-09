@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C0A8574-E145-47FB-868C-F9D1E33B2AA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Digital_Signs_Solution</RootNamespace>
+    <AssemblyName>Digital Signs Solution</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Digital Sign Solution Real\Digital signs solution copy real.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\Digital Sign Solution Real\Digital signs solution copy real.Designer.cs">
+      <DependentUpon>Digital signs solution copy real.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="..\Digital Sign Solution Real\Digital signs solution copy real.resx">
+      <DependentUpon>Digital signs solution copy real.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomIn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMAP Shopping Centre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMAP Fire Escape.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UKflag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PolandFlag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrenchFlag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewLookSale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CostaSale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\H&amp;MSale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SuperdrySale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RiverIslandSale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WagamamaSale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SubwaySale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BurgerKingSale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parking1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parking1Map.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parking2Map.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping Centre Map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping Centre Map1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMAP8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AmapMap9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Accessorize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boots.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BurgerKing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Costa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Claires.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barclays.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Costa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clarks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewLook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NatWest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NatWest1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HAndM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JDSports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LloydsBank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Subway.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Superdry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RiverIsland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TKMaxx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TedBaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WHSmith.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Waterstones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Waterstones1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wagamama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMAP9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,22 @@
+G:\My Drive\Digital Signs Solution\bin\Debug\Digital Signs Solution.exe.config
+G:\My Drive\Digital Signs Solution\bin\Debug\Digital Signs Solution.exe
+G:\My Drive\Digital Signs Solution\bin\Debug\Digital Signs Solution.pdb
+G:\My Drive\Digital Signs Solution\obj\Debug\Digital Signs Solution.csproj.AssemblyReference.cache
+G:\My Drive\Digital Signs Solution\obj\Debug\Digital Signs Solution.csproj.SuggestedBindingRedirects.cache
+G:\My Drive\Digital Signs Solution\obj\Debug\Digital_Signs_Solution.Form1.resources
+G:\My Drive\Digital Signs Solution\obj\Debug\Digital_Signs_Solution.Properties.Resources.resources
+G:\My Drive\Digital Signs Solution\obj\Debug\Digital Signs Solution.csproj.GenerateResource.cache
+G:\My Drive\Digital Signs Solution\obj\Debug\Digital Signs Solution.csproj.CoreCompileInputs.cache
+G:\My Drive\Digital Signs Solution\obj\Debug\Digital Signs Solution.exe
+G:\My Drive\Digital Signs Solution\obj\Debug\Digital Signs Solution.pdb
+G:\My Drive\Digital Signs Solution - Copy (2)\bin\Debug\Digital Signs Solution.exe.config
+G:\My Drive\Digital Signs Solution - Copy (2)\bin\Debug\Digital Signs Solution.exe
+G:\My Drive\Digital Signs Solution - Copy (2)\bin\Debug\Digital Signs Solution.pdb
+G:\My Drive\Digital Signs Solution - Copy (2)\obj\Debug\Digital Signs Solution.csproj.AssemblyReference.cache
+G:\My Drive\Digital Signs Solution - Copy (2)\obj\Debug\Digital Signs Solution.csproj.SuggestedBindingRedirects.cache
+G:\My Drive\Digital Signs Solution - Copy (2)\obj\Debug\Digital_Signs_Solution.Form1.resources
+G:\My Drive\Digital Signs Solution - Copy (2)\obj\Debug\Digital_Signs_Solution.Properties.Resources.resources
+G:\My Drive\Digital Signs Solution - Copy (2)\obj\Debug\Digital Signs Solution.csproj.GenerateResource.cache
+G:\My Drive\Digital Signs Solution - Copy (2)\obj\Debug\Digital Signs Solution.csproj.CoreCompileInputs.cache
+G:\My Drive\Digital Signs Solution - Copy (2)\obj\Debug\Digital Signs Solution.exe
+G:\My Drive\Digital Signs Solution - Copy (2)\obj\Debug\Digital Signs Solution.pdb
